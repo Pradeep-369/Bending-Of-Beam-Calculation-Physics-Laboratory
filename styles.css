@@ -61,3 +61,10 @@ tr:nth-child(2n+1){
   
   background: #2196F3;
 }
+footer{
+display:flex;
+  justify-content: center;
+}
+footer p{
+display: inline-block;
+}
