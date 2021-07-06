@@ -64,6 +64,9 @@ tr:nth-child(2n+1){
 footer{
 display:flex;
   justify-content: center;
+  position: absolute;
+  bottom:0;
+  margin-block: 10px;
 }
 footer p{
 display: inline-block;
