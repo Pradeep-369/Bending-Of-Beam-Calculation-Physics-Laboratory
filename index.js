@@ -16,10 +16,6 @@ for (let i = 0; i < 11; i++) {
 
 }
 
- function showAlert() {
-    alert ("This Page Is Non-Responsive  Mean: its Functionnally Good When Its Load in Laptops And Big Screen' If You Are Using Any Mobile Devices Please Turn To landscape Mode! For Bettter Experience ");
-  }
-
 let LC = 0.001;
 var valueOfMSR = document.querySelector(" tr:first-child td:nth-child(3) input");
 
@@ -171,7 +167,7 @@ var valueOfVSC19 = document.querySelector("tr:nth-child(10) td:nth-child(7) inpu
 
 var valueOfTR19 = document.querySelector("tr:nth-child(10) td:nth-child(8) input");
 
-//  Fixing VAlues FOr Load 
+//  Fixing Values For Load 
 var siNoRow01  = document.querySelector("tr:first-child td:nth-child(1) input");
 var loadRow01  = document.querySelector("tr:first-child td:nth-child(2) input");
 loadRow01.value = "W";
@@ -352,7 +348,7 @@ function compare(){
         // Row 06
    
     var variable20 = Number(valueOfMSR10.value);
-    var variable121 = Number(valueOfVSC10.value);
+    var variable21 = Number(valueOfVSC10.value);
   var result10= valueOfTR10.value;
     if (valueOfMSR10.value && valueOfVSC10.value) {
      result10 = variable20 + (variable21 * LC);
