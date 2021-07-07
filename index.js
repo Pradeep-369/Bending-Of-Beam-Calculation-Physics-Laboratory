@@ -8,6 +8,7 @@ for (let i = 0; i < 11; i++) {
      cell.id="cells";
      cell.id="tableData"
      var myInput = document.createElement('input');
+       myInput.type = "number";
      myInput.id="inputs";
      cell.appendChild(myInput);
      row.appendChild(cell);
@@ -15,6 +16,10 @@ for (let i = 0; i < 11; i++) {
   tblBody.appendChild(row);
 
 }
+
+ function showAlert() {
+    alert ("This Page Is Non-Responsive  Mean: its Functionnally Good When Its Load in Laptops And Big Screen' If You Are Using Any Mobile Devices Please Turn To landscape Mode! For Bettter Experience ");
+  }
 
 let LC = 0.001;
 var valueOfMSR = document.querySelector(" tr:first-child td:nth-child(3) input");
