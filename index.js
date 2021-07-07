@@ -8,7 +8,6 @@ for (let i = 0; i < 11; i++) {
      cell.id="cells";
      cell.id="tableData"
      var myInput = document.createElement('input');
-       myInput.type = "number";
      myInput.id="inputs";
      cell.appendChild(myInput);
      row.appendChild(cell);
